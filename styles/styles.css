@@ -1,3 +1,33 @@
-body{
+body {
         margin: 0;
+}
+.body-container {
+        margin: 50px 140px 140px 120px;
+}
+
+.slider {
+        background-image: url("../images/Banner Image.png");
+        max-width: 1320px;
+        max-height: 600px;
+        /* flex-shrink: 0; */
+        background-size: cover;
+        background-position: center;
+        border-radius: 16px;
+}
+
+.slider-content {
+        padding: 133px 344px 177px 344px;
+        color: #fff;
+        text-align: center;
+        font-family: "Merriweather", serif;
+}
+.slider-content > h4 {
+        font-size: 32px;
+        font-weight: 400px;
+        margin-bottom: 0px;
+}
+.slider-content > h2 {
+        margin-top: 16px;
+        font-size: 62px;
+        font-weight: 900px;
 }
